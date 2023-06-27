@@ -1,7 +1,7 @@
 
 // GIT 사용 시나리오
 --------------------------------------------------------------
-1. 원격 저장소 생성 -> clone -> pull
+1. 원격 저장소 clone -> 코드 pull(강의 소스 받기)
 
 . git: 로컬저장소(local repository), 원격저장소(remote repository)
   - 로컬저장소: 개발자의 PC
@@ -19,8 +19,8 @@
  : 원격 저장소의 정보 및 버전 파일로 로컬 저장소 및 작업공간 생성
 
 . git remote -v
- : origin  https://github.com/kdkcom1234/git2021.git (fetch)
- : origin  https://github.com/kdkcom1234/git2021.git (push)
+ : origin  https://github.com/kdkcom1234/java-docs.git (fetch)
+ : origin  https://github.com/kdkcom1234/java-docs.git (push)
    -> 원격저장소이름 원격저장소주소
    -> fetch 받아옴, push 보냄(올림)
 
@@ -32,7 +32,7 @@
    -> merge: 로컬저장소의 버전파일과 작업공간의 소스코드를 합침
 
 -----------------------------------------------------------------
-2. html-css -> 로컬저장소 생성 -> 원격저장소 올림
+2. 로컬저장소 생성 -> 원격저장소 추가 -> 작업 후 올림
 
 . git init(initialization: 초기화)
  : 로컬저장소를 초기화하여 생성
